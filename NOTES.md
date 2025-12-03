@@ -69,3 +69,9 @@ a-` = toupper
 `]f [f` = next/prev fn
 `]t [t` = next/prev type
 `]a [a` = next/prev arg
+
+### `c-w`
+
+`s` = :sp
+`v` = :vsp
+`HJKL` = swap with split left/below/above/right
