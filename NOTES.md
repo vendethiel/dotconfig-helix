@@ -4,8 +4,8 @@ Mostly the changes I trip up coming from Vim.
 
 ### Selections
 
-`x` = 0-$
-`X` = ^-$
+`x` = extend to current line, chain with next line
+`X` = extend to current line
 
 `;` = collapse to one cursor
 `,` = only primary selection
@@ -21,6 +21,8 @@ Mostly the changes I trip up coming from Vim.
 `C` = add cursor below
 `a-C` = add cursor above
 
+`a-d` = delete without yank
+
 ### Misc
 
 ```
@@ -32,6 +34,8 @@ a-` = toupper
 `&` = align columns
 
 `c-c` = {un,}comment
+
+`SPC ? %b <keybind>` = search by keybind
 
 ### AST selection
 `a-i` = `a-Up`, `a-o` = `a-Down`
@@ -61,6 +65,10 @@ a-` = toupper
 `r` = rename
 `a` = code_action()
 `h` = references
+
+### Jumps
+
+`c-o` =
 
 ### `] [`
 
