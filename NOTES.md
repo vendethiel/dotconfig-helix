@@ -1,0 +1,71 @@
+# Helix notes
+
+Mostly the changes I trip up coming from Vim.
+
+### Selections
+
+`x` = 0-$
+`X` = ^-$
+
+`;` = collapse to one cursor
+`,` = only primary selection
+`a-,` = remove primary selection
+
+`a-;` = flip selection/anchor(?)
+`a-:` = force forward sel
+
+`a-s` = split selection on \n
+`a--` = merge sels
+`a-_` = merge consecutive sels
+
+`C` = add cursor below
+`a-C` = add cursor above
+
+### Misc
+
+```
+~ = swap case
+` = tolower
+a-` = toupper
+```
+
+`&` = align columns
+
+`c-c` = {un,}comment
+
+### AST selection
+`a-i` = `a-Up`, `a-o` = `a-Down`
+`a-p`, `a-n` = prev/next sibling
+`a-b`, a-e` = start/end of parent
+`a-a` = all siblings
+`a-I` = all children
+
+### Goto (`g`-...)
+
+`tcb` = top/middle/bottom
+
+### Match/surround (`m`-...)
+
+`m` = matching (vim `%`)
+`s`+char = surround sel
+`r`+from+to = change surround from `from` to `to`
+`d`+char = delete surround
+
+### Spc
+
+`f` = file picker
+`F` = `cwd` file picker
+`k` = hover()
+`s` = document symbol picker
+`S` = workspace symbol picker
+`r` = rename
+`a` = code_action()
+`h` = references
+
+### `] [`
+
+`]d [d` = next/prev diag
+`]D [D` = last/first diag in file
+`]f [f` = next/prev fn
+`]t [t` = next/prev type
+`]a [a` = next/prev arg
