@@ -14,7 +14,7 @@ other-lines = "error"
 "a" = ["append_mode", "collapse_selection"]
 "i" = ["insert_mode", "collapse_selection"]
 "C-r" = ["collapse_selection", "keep_primary_selection"]
-"C-x" = ":format"
+"C-space" = ":format"
 "C-c" = "collapse_selection"
 
 [keys.insert]
