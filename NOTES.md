@@ -38,6 +38,7 @@ a-` = toupper
 `SPC ? %b <keybind>` = search by keybind
 
 ### AST selection
+`a-hjkl` = AST motivations (prev/shrink/expand/next)
 `a-i` = `a-Up`, `a-o` = `a-Down`
 `a-p`, `a-n` = prev/next sibling
 `a-b`, a-e` = start/end of parent
