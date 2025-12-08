@@ -77,6 +77,7 @@ a-` = toupper
 `]f [f` = next/prev fn
 `]t [t` = next/prev type
 `]a [a` = next/prev arg
+`]SPC [SPC` = add newline below/above
 
 ### `c-w`
 
