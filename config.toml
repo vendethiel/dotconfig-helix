@@ -29,11 +29,11 @@ max-indent-retain = 0
 "C-space" = ":format"
 "C-c" = "collapse_selection"
 "X" = "extend_line_above"
-D = []
-H = []
-L = []
-M = []
-V = []
+"D" = []
+"H" = []
+"L" = []
+"M" = []
+"V" = []
 
 # A-hjkl for AST motions
 A-h = "select_prev_sibling" # A-p
