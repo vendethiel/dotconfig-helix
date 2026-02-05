@@ -59,6 +59,8 @@ A-i = []
 "W" = "extend_next_long_word_start"
 [keys.normal.space]
 '"' = "@ g%change modified"
+[keys.normal."]"]
+"]" = "repeat_last_motion"
 
 [keys.insert]
 "C-r" = "normal_mode"
