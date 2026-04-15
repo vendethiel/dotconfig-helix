@@ -35,12 +35,14 @@ max-indent-retain = 12
 "L" = []
 "M" = []
 "V" = []
+"{" = ["extend_to_line_bounds", "goto_prev_paragraph"] # same as [p with current line
+"}" = ["extend_to_line_bounds", "goto_next_paragraph"] # same as ]p with current line
 
 # A-hjkl for AST motions
-A-h = "select_prev_sibling" # A-p
-A-l = "select_next_sibling" # A-n
-A-k = "expand_selection"    # A-o
-A-j = "shrink_selection"    # A-i
+A-h = "select_prev_sibling" # former A-p
+A-l = "select_next_sibling" # former A-n
+A-k = "expand_selection"    # former A-o
+A-j = "shrink_selection"    # former A-i
 A-p = []
 A-n = []
 A-o = []
@@ -69,6 +71,10 @@ A-i = []
 "A-j" = "move_visual_line_down"
 "A-k" = "move_visual_line_up"
 "A-l" = "move_char_right"
+
+"C-n" = "completion" # I keep pressing C-n / C-p better it autocompletes
+"C-p" = "completion"
+"C-x" = []
 
 [keys.select]
 "C-r" = "normal_mode"

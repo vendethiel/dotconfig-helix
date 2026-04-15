@@ -17,6 +17,7 @@ Mostly the changes I trip up coming from Vim.
 `a-s` = split selection on \n
 `a--` = merge sels
 `a-_` = merge consecutive sels
+`_` = trim sels
 
 `C` = add cursor below
 `a-C` = add cursor above
@@ -33,7 +34,7 @@ a-` = toupper
 
 `&` = align columns
 
-`c-c` = {un,}comment
+`c-c` = collapse + normal mode
 
 `SPC ? %b <keybind>` = search by keybind
 
@@ -47,6 +48,7 @@ a-` = toupper
 ### Goto (`g`-...)
 
 `tcb` = top/middle/bottom
+`w` = mini.2d
 
 ### Match/surround (`m`-...)
 
@@ -68,7 +70,8 @@ a-` = toupper
 
 ### Jumps
 
-`c-o` =
+`c-o` `c-i` = prev/next jumplist
+`c-s` = save to jumplist
 
 ### `] [`
 
