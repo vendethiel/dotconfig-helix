@@ -1,0 +1,4 @@
+[[language]]
+name = "scala"
+formatter = { command = "scalafmt", args = ["--stdout", "--stdin"] }
+auto-format = true
